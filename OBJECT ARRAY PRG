@@ -1,0 +1,40 @@
+class common
+{
+    static String PM = "Narendra modi";
+}
+
+class Tamilnadu
+{
+    static String CM = "Joseph vijay";
+    static String state = "Tamilnadu";
+    String dist;
+    int n;
+
+    public void set_dim(String a, int b)
+    {
+        dist = a;
+        n = b;
+    }
+
+    public void display()
+    {
+        System.out.println("PM: " + common.PM);
+        System.out.println("CM: " + CM);
+        System.out.println("State name: " + state);
+        System.out.println("District name: " + dist);
+        System.out.println("Population of district: " + n);
+    }
+}
+
+class Andhrapradesh
+{
+    static String CM = "Chandhrababu Naidu";
+    static String state = "Andhra pradesh";
+    String dist;
+    int n;
+
+    public void set_dim(String a, int b)
+    {
+        dist = a;
+        n = b;
+    }
